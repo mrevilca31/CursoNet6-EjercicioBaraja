@@ -1,0 +1,15 @@
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\bin\Debug\net6.0\Clase 14 Tarea.exe
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\bin\Debug\net6.0\Clase 14 Tarea.deps.json
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\bin\Debug\net6.0\Clase 14 Tarea.runtimeconfig.json
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\bin\Debug\net6.0\Clase 14 Tarea.dll
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\bin\Debug\net6.0\Clase 14 Tarea.pdb
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\Clase 14 Tarea.csproj.AssemblyReference.cache
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\Clase 14 Tarea.GeneratedMSBuildEditorConfig.editorconfig
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\Clase 14 Tarea.AssemblyInfoInputs.cache
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\Clase 14 Tarea.AssemblyInfo.cs
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\Clase 14 Tarea.csproj.CoreCompileInputs.cache
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\Clase 14 Tarea.dll
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\refint\Clase 14 Tarea.dll
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\Clase 14 Tarea.pdb
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\Clase 14 Tarea.genruntimeconfig.cache
+D:\CURSOS\Curso .NET 6\Clase14_Tarea\Clase 14 Tarea\Clase 14 Tarea\obj\Debug\net6.0\ref\Clase 14 Tarea.dll
