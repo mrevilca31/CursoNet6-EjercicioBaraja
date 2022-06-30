@@ -8,11 +8,11 @@ namespace Clase_14_Tarea.modelo
 {
     public class Baraja
     {
-        //private int[] _numeroDeCarta = {1,2,3,4,5,6,7,10,11,12};
-        private int[] _numeroDeCarta = { 1 };
+        private int[] _numeroDeCarta = {1,2,3,4,5,6,7,10,11,12};
         private string[] _palo = {"espada", "basto", "oro", "copa"};
-        private List<string> _cartas = new List<string>();
-
+        private Stack<string> _cartas = new Stack<string>();
+        private Stack<string> _monton = new Stack<string>();
+  
 
         public void Barajar()
         {
@@ -22,7 +22,7 @@ namespace Clase_14_Tarea.modelo
             while (cartasOrdenadas.Count>0)
             {
                 var indice = rand.Next(0, cartasOrdenadas.Count);
-                this._cartas.Add(cartasOrdenadas[indice]);
+                this._cartas.Push(cartasOrdenadas[indice]);
                 cartasOrdenadas.RemoveAt(indice);
             }
         }
@@ -49,8 +49,8 @@ namespace Clase_14_Tarea.modelo
             }
             else
             {
-                respuesta = this._cartas[0];
-                this._cartas.RemoveAt(0);
+                respuesta = this._cartas.Pop();
+                this._monton.Push(respuesta);
             }
             Console.WriteLine(respuesta);
         }
@@ -58,6 +58,39 @@ namespace Clase_14_Tarea.modelo
         public void CartasDisponibles()
         {
             Console.WriteLine($"Hay {this._cartas.Count} cartas disponibles.");
+        }
+
+        public void DarCartas(int cantidad)
+        {
+            if (this._cartas.Count >= cantidad)
+            {
+                string carta;
+                for (int i = 0; i < cantidad; i++)
+                {
+                    carta = this._cartas.Pop();
+                    this._monton.Push(carta);
+                    Console.WriteLine(carta);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No hay suficientes cartas en la baraja.");
+            }
+        }
+
+        public void CartasMonton()
+        {
+            if (this._monton.Count == 0)
+            {
+                Console.WriteLine("Aún no se han sacado cartas de la baraja.");
+            }
+            else
+            {
+                foreach (var carta in this._monton)
+                {
+                    Console.WriteLine(carta);
+                }
+            }
         }
 
         public void MostrarBaraja()
